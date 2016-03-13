@@ -1,0 +1,57 @@
+/*GENERAL*/
+a{
+	text-decoration: none;
+	color: #6ab47b;
+
+}
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding:0 5%;
+	background:orange;
+	 
+}
+
+h1{
+
+	font-family: 'poiret one', sans-serif;
+	margin:15px 0;
+	font-size: 1.75em;
+	font:weight:normal;
+	line-height: 0.8em;
+}
+
+/*HEADING*/
+header{
+
+	background:#6ab47b;
+	border--color:#599a68;
+}
+
+#logo{
+
+	text-align: center;
+	margin:0;
+}
+
+h1,h2{
+	color:#fff;
+}
+
+/*NAVIGATION*/
+nav{
+
+	background:#fff111;
+}
+
+nav a, nav a:visited;{
+	color:#281758;
+}
+
+nav a.selected{
+	color:#ff1111;
+}
+
+nav a:hover {color:#32673f;} /*cambia el color al pasar ele mouse*/
+
+/*FOOTER*/
