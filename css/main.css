@@ -54,6 +54,14 @@ header{
 	border--color:#599a68;
 }
 
+
+header{
+	float:letf;
+	margin:0030px0;
+	padding:5px 000;
+	width:100%;
+
+}
 #logo{
 
 	text-align: center;
@@ -77,6 +85,19 @@ nav a, nav a:visited;{
 nav a.selected{
 	color:#ff1111;
 }
+
+nav ul {
+	list-style:none;
+	margin:010px;
+	padding:0; /*aliniar la galeria*/
+}
+
+nav li {
+	display:inline-block; /*permite alinear en forma horizontal el menu*/
+}
+
+nav a { font-weight: 800;
+		padding:15px 10px;}/*permite establecer mas enfacis y estable como boton*/
 
 nav a:hover {color:#32673f;} /*cambia el color al pasar ele mouse*/
 
