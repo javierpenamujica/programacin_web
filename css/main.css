@@ -121,13 +121,20 @@ footer{
 .profile-photo{
 
 	display:block;
-	max-width:230px;
+	max-width:250px;
 	margin: 0 auto 50px;
 	border-radius:100%;
 }
 
 .contact-info li.phone a{
 	background-image:url('../img/phone.png');
+}
+
+
+.double-border {
+border: 5px solid #ddd;
+padding: 5px; /*Inner border size*/
+background: #fff; /*Inner border color*/
 }
 
 .contact-info li.mail a{
